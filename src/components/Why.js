@@ -172,6 +172,24 @@ export default function Why() {
             </h3>
           </div>
         </div>
+        <div className="flex flex-col items-center mt-[80px]">
+          <div className="text-center font-medium text-[16px] md:text-[20px] text-black">
+            Chúng tôi sẽ tư vấn tận tâm cho bạn bất cứ thắc mắc nào liên quan
+            tới <br className="hidden md:block" />{" "}
+            <span className="font-bold text-[#FF2F2C] uppercase">
+              Nhân sâm, Hồng sâm Hàn Quốc
+            </span>{" "}
+            dù bạn mua hay không mua
+          </div>
+          <a className="contact-button mt-[30px]" href="/#">
+            <img
+              className="w-[30px]"
+              src="./icons/phone-white-icon.svg"
+              alt=""
+            />
+            <span>HỖ TRỢ TƯ VẤN</span>
+          </a>
+        </div>
       </div>
     </section>
   );

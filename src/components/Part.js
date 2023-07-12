@@ -79,7 +79,17 @@ export default function Part() {
               </span>
             </a>
           </div>
-          <div className="absolute top-[48px] md:top-[18px] lg:top-[16px] xl:top-[-80px] right-[-80px] lg:right-[-70px] xl:right-0 hidden md:block">
+          <div className="mt-[30px] relative md:absolute md:bottom-[40px] md:right-[30px] lg:right-[50px] xl:right-[150px] z-20">
+            <a className="contact-button" href="/#">
+              <img
+                className="w-[30px]"
+                src="./icons/phone-white-icon.svg"
+                alt=""
+              />
+              <span>HỖ TRỢ TƯ VẤN</span>
+            </a>
+          </div>
+          <div className="absolute top-[48px] md:top-[18px] lg:top-[-13px] xl:top-[-80px] right-[-80px] lg:right-[-70px] xl:right-0 hidden md:block">
             <img
               className="w-[480px] xl:w-auto"
               srcSet="./images/owner.png 2x"

@@ -3,7 +3,7 @@ import Heading from "./commons/Heading";
 
 export default function Note() {
   return (
-    <section className="noted pt-[100px] md:pt-[170px] pb-[50px] md:pb-[280px] overflow-x-hidden">
+    <section className="noted pt-[70px] md:pt-[170px] pb-[50px] md:pb-[280px] overflow-x-hidden">
       <div className="page-container">
         <Heading>
           <span className="relative block">
