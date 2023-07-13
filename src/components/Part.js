@@ -80,7 +80,12 @@ export default function Part() {
             </a>
           </div>
           <div className="mt-[30px] relative md:absolute md:bottom-[40px] md:right-[30px] lg:right-[50px] xl:right-[150px] z-20">
-            <a className="contact-button" href="/#">
+            <a
+              className="contact-button"
+              href="http://m.me/100062932646413"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="w-[30px]"
                 src="./icons/phone-white-icon.svg"

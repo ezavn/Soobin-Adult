@@ -25,14 +25,19 @@ export default function Footer() {
             </div>
             <div className="absolute bottom-[20px] lg:bottom-[35px] left-[50%] translate-x-[-50%] w-full z-10">
               <div className="flex items-center gap-[24px] justify-center mb-[10px] lg:mb-[20px]">
-                <div className="w-[20px] h-[20px]">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100062932646413"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-[20px] h-[20px]"
+                >
                   <img
                     className="w-full h-full"
                     src="./icons/facebook-icon.svg"
                     alt=""
                   />
-                </div>
-                <div className="w-[20px] h-[20px]">
+                </a>
+                {/* <div className="w-[20px] h-[20px]">
                   <img
                     className="w-full h-full"
                     src="./icons/twitter-icon.svg"
@@ -52,7 +57,7 @@ export default function Footer() {
                     src="./icons/instagram-icon.svg"
                     alt=""
                   />
-                </div>
+                </div> */}
               </div>
               <p className="text-center text-white font-light text-[13px]">
                 Copyright © 2022 Sâm Soobin

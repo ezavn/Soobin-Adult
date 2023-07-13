@@ -181,7 +181,12 @@ export default function Why() {
             </span>{" "}
             dù bạn mua hay không mua
           </div>
-          <a className="contact-button mt-[30px]" href="/#">
+          <a
+            className="contact-button mt-[30px]"
+            href="http://m.me/100062932646413"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="w-[30px]"
               src="./icons/phone-white-icon.svg"
